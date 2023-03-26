@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>LiquidX | Configs</title>
     <link rel="icon" href="https://s2.gifyu.com/images/logo6462a0cc1f1c506e.png" type="image/png">
+	<a href="#" onclick="history.go(-1); return false;" class="back-button">Back</a>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		/* Estilos generales */
@@ -34,6 +35,41 @@
 			font-size: 1.2em;
 			margin-bottom: 1em;
 		}
+
+		/* back */
+
+        .back-button {
+            font-size: 25px;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0px 30px;
+            border-radius: 30px;
+            background-image: linear-gradient(to right, #4949492c, #4949492c);
+            box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+            transition: all 0.5s ease;
+        }
+
+        .back-button:hover {
+            transform: translateY(2px);
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .back-button:active {
+            transform: translateY(2px);
+            animation: pulse 1s infinite;
+            box-shadow: none;
+        }
+		@keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
 
 		/* Estilos para el logo */
 		.logo {
@@ -88,11 +124,11 @@
 	<div class="logo">
 		<img src="https://c.saavncdn.com/596/Ahegao-The-Ahegao-Song-English-2019-20190524193452-500x500.jpg" alt="Logo">
 	</div>
-	<h1>Sección en construcción</h1>
-	<p>Pronto estará listo para ti</p>
+	<h1>Coming Soon</h1>
+	<p>We are still in maintenance</p>
 	<div class="progress">
 		<div class="progress-bar"></div>
 	</div>
-	<p>¡Vuelve pronto!</p>
+	<p>Come back soon!</p>
 </body>
 </html>
