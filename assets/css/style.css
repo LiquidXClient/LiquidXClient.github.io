@@ -60,6 +60,14 @@ h1{
     text-align: center;
 }
 
+.content3 h1 {
+    font-size: 15px;
+    transform: translateY(230px);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
 .content2 h1 {
     font-size: 115px;
     font-family: 'Roboto', sans-serif;
