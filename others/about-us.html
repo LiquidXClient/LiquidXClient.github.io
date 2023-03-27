@@ -213,14 +213,14 @@
           const originalText = button.textContent;
           button.addEventListener('click', () => {
             navigator.clipboard.writeText(text).then(() => {
-              button.textContent = ' Discord copiado ';
+              button.textContent = ' Copied successfully ';
               setTimeout(() => {
                 button.textContent = originalText;
               }, 2000); 
             });
           });
           button.addEventListener('mouseover', () => {
-            button.title = 'Copiar discord';
+            button.title = 'Copy Discord';
           });
         }
         
