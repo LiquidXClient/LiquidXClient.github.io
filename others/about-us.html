@@ -39,7 +39,29 @@
         </div>
 
     <script>
-    const copyToClipboard=(e,t)=>{let c=e.textContent;e.addEventListener("click",()=>{navigator.clipboard.writeText(t).then(()=>{e.textContent=" Copied successfully ",setTimeout(()=>{e.textContent=c},2e3)})}),e.addEventListener("mouseover",()=>{e.title="Copy Discord"})},prahdc=document.querySelector("#vprah-dc"),cryptdc=document.querySelector("#crypt-dc"),nulldc=document.querySelector("#null-dc"),moshidc=document.querySelector("#moshi-dc");copyToClipboard(prahdc,"vPrah#4827"),copyToClipboard(cryptdc,"Crypt#4517"),copyToClipboard(nulldc,"C18PacketSpectate#4080"),copyToClipboard(moshidc,"moshi#1755");
+    const copyToClipboard = (e,t)=>{
+        let c = e.textContent;
+        e.addEventListener("click", ()=>{
+            navigator.clipboard.writeText(t).then(()=>{
+                e.textContent = " Copied successfully ",
+                setTimeout(()=>{
+                    e.textContent = c
+                },
+                2e3)
+            })
+        }),
+        e.addEventListener("mouseover", ()=>{
+            e.title = "Copy Discord"
+        })
+    },
+    prahdc = document.querySelector("#vprah-dc"),
+    cryptdc = document.querySelector("#crypt-dc"),
+    nulldc = document.querySelector("#null-dc"),
+    moshidc = document.querySelector("#moshi-dc");
+    copyToClipboard(prahdc, "vPrah#4827"),
+    copyToClipboard(cryptdc, "zEncrypte#5271"),
+    copyToClipboard(nulldc, "Nully#4663"),
+    copyToClipboard(moshidc, "moshi#1614");
     </script>
 </body>
 </html>
